@@ -24,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](images/screenshot.png) 
+<p align="center"> <img src="images/screenshot2.png"> </p>
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://dami-moore.github.io/3-column-preview-card-component-challenge/](https://your-live-site-url.com)
 
 ## My process
 
