@@ -11,14 +11,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
     margin: 100px auto 0px;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 /* general styling for individual boxes i.e. things they share in common */
 .description {
     text-align: left;
-    padding: 20px 36.5px;
+    padding: 20px 36.5px 20px 50px;
 }
 
 img {
@@ -43,11 +43,11 @@ img {
 }
 
 .description button {
-    padding: 15px 20px;
+    padding: 15px;
     border-radius: 50px;
-    text-align: center;
     border: 1px solid; 
-    width: 70%;
+    width: 60%;
+    font-size: 1rem;
     margin-bottom: 40px;
     font-family: 'Lexend Deca', sans-serif; 
     transition: background-color 100ms ease-in 10ms;
