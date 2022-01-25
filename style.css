@@ -1,0 +1,136 @@
+.body {
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 0.8rem;
+}
+
+/* main section styling */
+
+/* container box */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: 100px auto 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* general styling for individual boxes i.e. things they share in common */
+.description {
+    text-align: left;
+    padding: 20px 36.5px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.description h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:  hsl(0, 0%, 95%);
+}
+
+.description p {
+    font-weight: 400;
+    width: 90%;
+    line-height: 2;
+    margin-bottom: 80px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.description button {
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid; 
+    width: 70%;
+    margin-bottom: 40px;
+    font-family: 'Lexend Deca', sans-serif; 
+    transition: background-color 100ms ease-in 10ms;
+}
+
+/* background-color for each box */
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* individual button styles */
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color:hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+/* hover styles */
+button:hover {
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* attribution */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 365px;
+        margin: 50px auto 0;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+
+    .description p {
+        margin-bottom: 10px;
+    }
+}
